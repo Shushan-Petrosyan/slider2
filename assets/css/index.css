@@ -1,0 +1,286 @@
+html,body{
+  margin:0;
+  padding: 0;
+}
+
+.all-content {
+  background-color: rgb(247, 247, 247);;
+ 
+ }
+
+.content {
+background-color: white;
+}
+
+.content-title {
+    font-family: "Old Standard TT", serif;
+    font-size: 16px;
+    color: #7E7E82;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.wrapper {
+  display: none;
+}
+
+.grid-container-ipad {
+  display: none;
+}
+
+.hidden-ipad {
+  display: none;
+}
+
+.button-container-ipad {
+  display: none;
+}
+.swiper {
+  display: none;
+}
+
+.mobile-contant {
+  display: none;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 1200px;
+    margin-left: 20px;
+    background-color: rgb(247, 247, 247);
+}
+
+.grid-item {
+    margin-left: 8%;
+
+
+}
+
+.hidden {
+    display: none;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+
+  }
+
+  .button-container img {
+    margin-right: 5px;
+    transition: transform 0.3s;
+
+  }
+
+  .rotated {
+    transform: rotate(180deg);
+  }
+
+.toggle-texts {
+    width: 100%;
+}
+
+/*Ipad section*/
+
+@media screen and (max-width:1120px) {
+    
+       .dontview {
+        display: none;
+       }
+
+       .wrapper {
+        display: none;
+       }
+
+       .swiper {
+        display: none;
+       }
+
+       .mobile-contant {
+        display: none;
+       }
+
+       .content-title {
+        font-family: "Old Standard TT", serif;
+        font-size: 16px;
+        color: #7E7E82;
+        margin-left: 20px;
+        margin-top: 20px;
+        background-color: white;
+    }
+    
+    .grid-container-ipad {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      max-width: 700px;
+      margin-left: 20px;
+      background-color: rgb(247, 247, 247);
+    }
+
+       .grid-container {
+        display: none;
+    }
+
+    .button-container {
+     display: none;
+  
+    }
+
+    .button-container-ipad {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: 10px;
+      margin-left:5px;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 10px;
+    }
+
+    .button-container-ipad img {
+      margin-right: 5px;
+      transition: transform 0.3s;
+  
+    }
+  
+    .rotatedIpad {
+      transform: rotate(180deg);
+    }
+  
+  .toggle-texts-ipad {
+      width: 100%;
+  }
+
+}
+
+/*Mobile section*/
+
+@media screen and (max-width:780px) {
+  .all-content {
+    display: none;
+  }
+
+  body {
+    background-color: rgb(247, 247, 247);
+
+  }
+
+
+  
+
+.wrapper {
+  display: inline;
+  min-height: 100%;
+}
+
+
+.title {
+  font-family: "Old Standard TT", serif;
+  font-size: 16px;
+  color: #7E7E82;
+  margin-left: 0px;
+  padding-left: 10px;
+  margin-top:0;
+  padding-top: 10px;
+  background-color: white;
+  height: 40px;
+}
+
+.image-slider {
+  padding: 0px 0px 70px 0px;
+  min-width: 0;
+}
+
+.image-slider__wrapper {
+
+  margin-left: 10px;
+}
+
+.image-slider__slide {
+
+}
+
+.image-slider__image {
+
+} 
+
+.image-slider__image img {
+  max-width: 100%;
+}
+
+.image-slider .swiper-pagination {
+  position: absolute;
+  top: 170px !important;
+  margin-left: -80px !important;
+}
+
+.image-slider .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+
+  line-height: 20px;
+  font-size: 14px;
+  background-color: #B5B6BC;
+}
+
+/*.image-slider .swiper-scrollbar-drag {
+  cursor: pointer;
+  background-color: rgb(25, 51, 73);
+}*/
+
+
+/*.mobile-contant {
+  display: block;
+}
+
+.text-mobile {
+  font-family: "Old Standard TT", serif;
+  font-size: 16px;
+  color: #7E7E82;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+  
+
+    .swiper {
+      width: 100%;
+
+      margin: 50px auto;
+    }
+
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      width: 260px !important;
+      height: 80px !important;
+    }
+
+    .swiper-slide img {
+
+      height: 100%;
+      object-fit: cover;
+    }
+
+.swiper-pagination {
+  margin-top: -300px !important;
+}*/
+
+}
+  
