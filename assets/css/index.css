@@ -221,8 +221,8 @@ background-color: white;
 
 .image-slider .swiper-pagination {
   position: absolute;
-  top: 170px !important;
-  margin-left: -80px !important;
+  top: 150px !important;
+  margin-left: -10% !important;
 }
 
 .image-slider .swiper-pagination-bullet {
