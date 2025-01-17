@@ -40,19 +40,36 @@ toggleButtonIpad.addEventListener('click', () => {
   }
 });
 
+document.body.style.background = 
+"linear-gradient(to bottom, white 50px, rgb(247, 247, 247) 50px)";
+
 new Swiper('.image-slider', {
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+
    pagination: {
     el: '.swiper-pagination',
     clickable: true,
-    //dynamicBullets: true,
+  
    },
-   
+  
    autoHeight: true,
-   slidesPerView: 2.5,
+  // slidesPerView: 3,
+ // breakpoints: {
+   // 780: {
+     //     slidesPerView: 3, 
+          
+     // },
+    // 750: {
+      //    slidesPerView: 2.5, 
+     // },
+     //500: {
+       //   slidesPerView: 2, 
+     // },
+      //400: {
+        //  slidesPerView: 1, 
+    // },
+  //},
+
+  
 });
 
 
